@@ -1,94 +1,86 @@
-# GeekDesk 极客桌面 (Fork 版 v2.6.0)
+# GeekDesk (Fork v2.6.0)
 
-> ## ⚠️ Fork 声明 / 修改声明
->
-> 本仓库是 [BookerLiu/GeekDesk](https://github.com/BookerLiu/GeekDesk) 的二次开发版本，遵循原项目采用的 [Apache License 2.0](LICENSE) 开源许可。
->
-> - **本 Fork 的修改**：新增"二级分组"功能——每个一级菜单内部可建立多个分组，右侧图标卡片顶部以标签行形式切换显示；图标可通过拖拽到标签或右键菜单移入/移出分组；分组内图标参与全局搜索；删除分组时组内图标自动退回默认列表。数据文件与 v2.5.15 完全兼容。
-> - **构建方式调整**：lnk 快捷方式解析由 COM 互操作程序集（IWshRuntimeLibrary）改为等效的 `WScript.Shell` COM 动态调用，行为不变。
-> - **关于内置的 Everything**：本程序捆绑分发的 [Everything](https://www.voidtools.com/) 搜索引擎（Everything.exe / Everything SDK DLL）版权归 voidtools 所有，遵循其自身许可条款，此处仅按原项目方式集成。
-> - 原项目的一切功劳属于原作者 [BookerLiu](https://github.com/BookerLiu)，请支持原项目；本 Fork 的问题请优先在本仓库提 Issue。
-> - 升级前请先备份原目录下的 `Data` 文件。
+> ## ⚠️ Fork Notice
+> This repository is a fork of [BookerLiu/GeekDesk](https://github.com/BookerLiu/GeekDesk), licensed under the original [Apache License 2.0](LICENSE).
+> - **Changes in this fork**: added "second-level sub-groups" — each first-level menu can contain multiple groups, switched via a chip row on top of the right icon card; icons can be moved into/out of groups by dragging onto chips or via the icon context menu; grouped icons are included in global search; deleting a group returns its icons to the default list. Data files remain fully compatible with v2.5.15.
+> - **Build change**: .lnk shortcut parsing now uses dynamic `WScript.Shell` COM invocation instead of the generated COM interop assembly; behavior is identical.
+> - **About the bundled Everything**: the bundled [Everything](https://www.voidtools.com/) search engine (Everything.exe / SDK DLLs) is copyrighted by voidtools and subject to its own license terms; it is integrated the same way as the original project.
+> - All credit for the original project belongs to [BookerLiu](https://github.com/BookerLiu) — please support the upstream project. Please file issues for this fork in this repository.
+> - Back up your `Data` file before upgrading.
+
+![](README.assets/PixPin_2026-09-09_08-14-38.jpg)
 
 ---
 
-# GeekDesk 极客桌面（原项目介绍）
-
-小巧、**美观**的桌面快速启动管理工具, 同时集成了Everything搜索
-
+# GeekDesk 极客桌面（原项目 / Original project）
+Small, **beautiful** desktop quickstart management tool with integrated Everything search
 - [中文介绍](README-zh.md)
-- [English-machine translation](README.md)  
+- [English-machine translation](README.md)
+  
 
 <img src="https://s4.ax1x.com/2021/12/15/TSrwfU.png" a border="0" width="800px"/>
 
 
-**免费 / 美观 / 高度定制化** 是从GeekDesk诞生开始就有的需求和方向, 未来也会向着这些方向发展  
+Free / beautiful / highly customized is the need and direction since the birth of GeekDesk, and will develop in these directions in the future
 
-大家如果有好的建议可以提Issue  
+you can raise issues if you have good suggestions
 
-另外如果你喜欢 GeekDesk的话, 或许可以为作者购买防脱洗发水  
-当然, 点个**Star**也是对作者的激励哦~ 😊😊😊
+In addition, if you like GeekDesk, you may be able to buy anti-exfoliation shampoo for the author
+Of course, ordering a Star is also an incentive for the author~ 😊😊😊  
 
+[**Paypal**](https://www.paypal.com/paypalme/BookerLiu) 
+
+### Other:
 <img src="https://z3.ax1x.com/2021/07/20/WYdfmR.jpg" alt="WYdfmR.jpg" border="0" width="400px"/>
 
 ### GitHub
-
 [https://github.com/BookerLiu/GeekDesk](https://github.com/BookerLiu/GeekDesk)  
-
-### 码云
-
+### Gitee
 [https://gitee.com/BookerLiu/GeekDesk](https://gitee.com/BookerLiu/GeekDesk)
 
 
-## 集成Everything 快速搜索全盘文件
-
-- 2.5.14及之后版本集成了Everything功能  
+## Integrate Everything to quickly search the entire disk
+- Integrate Everything to quickly search the entire disk  
+  
 
 ![](https://s3.bmp.ovh/imgs/2023/04/25/ecfbf59916b9b854.gif)
 
-## 全局热键 一键呼出 鼠标跟随
+## Global hotkeys / one-click callout / mouse follow
+- Customize hotkeys settings and use the shortcuts you are used to
+- One-click outbound call Use the middle mouse button to call out
+- Mouse Follow Automatically follows the mouse position
+<img src="https://s4.ax1x.com/2021/12/15/TSlg8f.gif" alt="WJt4hQ.gif" border="0" width="800px"/>
 
-- 自定义热键 设置并使用自己习惯的快捷键
-- 一键呼出 使用鼠标中键呼出
-- 鼠标跟随 自动追随鼠标位置
-  <img src="https://s4.ax1x.com/2021/12/15/TSlg8f.gif" alt="WJt4hQ.gif" border="0" width="800px"/>
-
-## 自定义壁纸
-
-- 随意选择自己喜欢的壁纸  
-  <img src="https://s4.ax1x.com/2021/12/15/TSNx4H.gif" alt="WJt4hQ.gif" border="0" width="800px"/>
+## Custom wallpaper
+- Feel free to choose your favorite wallpaper  
+<img src="https://s4.ax1x.com/2021/12/15/TSNx4H.gif" alt="WJt4hQ.gif" border="0" width="800px"/>
 
 
-## 毛玻璃等界面效果
+## Interface effects such as frosted glass
+- Background image frosted glass effect
+- Interface transparency
+- Interface rounded corners  
+<img src="https://s4.ax1x.com/2021/12/15/TSabTO.gif" alt="WGOYSU.gif" border="0" width="800px"/>
 
-- 背景图片毛玻璃效果
-- 界面透明度
-- 界面圆角  
-  <img src="https://s4.ax1x.com/2021/12/15/TSabTO.gif" alt="WGOYSU.gif" border="0" width="800px"/>
+## Customize the menu icon
+- More than 80 system icons to choose from
+- It also supports online import of Alibaba icon icons  
+- For space reasons, reply in the public account Custom icon You can view the tutorial Now the tutorial link has been pasted in the software Welcome to pay attention to my public account😊
+<img src="https://s4.ax1x.com/2021/12/15/TSd1NF.gif" border="0" width="800px"/>
 
-## 自定义菜单图标
+## Scheduled reminders Never forget
+- Scheduled reminders Never forget
+<img src="https://s4.ax1x.com/2021/12/15/TSDCvj.gif" alt="WJU6df.gif" border="0" width="800px"/>
 
-- 80多个系统图标可供选择
-- 另支持在线导入阿里巴巴icon图标  
-- ~~篇幅原因,公众号内回复 **自定义图标** 可以查看教程~~  现在软件内已经贴上教程链接啦  也欢迎大家关注我的公众号:blush:
-  <img src="https://s4.ax1x.com/2021/12/15/TSd1NF.gif" border="0" width="800px"/>
-
-## 定时提醒 永不忘记
-
-- 快捷键快速新建待办事项
-  <img src="https://s4.ax1x.com/2021/12/15/TSDCvj.gif" alt="WJU6df.gif" border="0" width="800px"/>
-
-## 开发框架
-
+## Development framework
 - wpf
 - .net 4.7.2
 - [HandyControl](https://github.com/HandyOrg/HandyControl)  
 
 ## Stargazers over time
-
 [![Stargazers over time](https://starchart.cc/BookerLiu/GeekDesk.svg)](https://starchart.cc/BookerLiu/GeekDesk)
 
-## 贡献者
+## Contributors
 
 <a href="https://github.com/BookerLiu/GeekDesk/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=BookerLiu/GeekDesk" />

@@ -1,0 +1,10 @@
+{
+	"title": "GeekDesk版本更新",
+	"subTitle": "V2.6.0-Fork",
+	"msgTitle": "本次更新内容如下",
+	"msg": "['Fork版首个版本, 基于BookerLiu/GeekDesk v2.5.15二次开发', '新增二级分组功能: 每个菜单内可建立分组, 右侧卡片顶部以标签形式切换, 右键卡片空白处可新建分组', '图标支持拖拽到分组标签入组/出组, 也可通过图标右键菜单-移动到分组操作', '删除分组时组内图标自动退回默认列表, 不会丢失', '分组内图标也参与全局搜索(含拼音搜索)', '完全兼容2.5.15的数据文件, 直接覆盖升级即可(升级前仍建议先备份)']",
+	"githubUrl": "https://github.com/你的用户名/GeekDesk/releases",
+	"giteeUrl": "https://gitee.com/你的用户名/GeekDesk/releases",
+	"statisticUrl": "",
+	"version": "2.6.0"
+}
