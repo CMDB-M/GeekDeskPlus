@@ -77,9 +77,6 @@ Of course, ordering a Star is also an incentive for the author~ 😊😊😊
 - .net 4.7.2
 - [HandyControl](https://github.com/HandyOrg/HandyControl)  
 
-## Stargazers over time
-[![Stargazers over time](https://starchart.cc/BookerLiu/GeekDesk.svg)](https://starchart.cc/BookerLiu/GeekDesk)
-
 ## Contributors
 
 <a href="https://github.com/BookerLiu/GeekDesk/graphs/contributors">
